@@ -17,9 +17,9 @@ Uneven and unpredictable Aadhaar enrollment patterns can impact equitable access
 Without automated analysis, anomalies may delay administrative response and affect service availability, especially in rural regions.
 
 ### Key Features
--Trend Analysis
--AI Assistant Anomaly Detection
--Data Visualization
+- Trend Analysis
+- AI Assistant Anomaly Detection
+- Data Visualization
 
 ## Role of AI
 AI is used in the form of **statistical pattern and anomaly detection**, which is a valid and explainable AI approach for analytical decision-support systems.
@@ -75,24 +75,47 @@ If implemented, this solution can:
 
 ## 📂 Repository Structure
 
+```text
 Aadhar-Enrollment-Anomaly-Detection
 │
-├── Data/ # Public dataset (CSV)
-├── Notebook/ # Jupyter notebook analysis
-│ └── Analysis.ipynb
-├── Visuals/ # (Optional) Saved plots
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── 📁 Data
+│   │
+│   └── 📄 Aadhaar Enrollment Dataset (CSV)
+│
+├── 📁 Notebook
+│   │
+│   └── 📓 Analysis.ipynb
+│       │
+│       ├── Data Loading
+│       ├── Data Cleaning
+│       ├── Feature Engineering
+│       ├── Trend Analysis
+│       ├── Z-Score Anomaly Detection
+│       └── Visualization
+│
+├── 📁 Visuals
+│   │
+│   └── 📊 Generated Charts and Plots
+│
+├── 📄 README.md
+│   └── Project Documentation
+│
+├── 📄 requirements.txt
+│   └── Project Dependencies
+│
+└── 📄 .gitignore
+    └── Ignored Files and Directories
+```
+
 
 ## 🚀 How to Run
 1. Prerequisites
 * Python 3.8 or higher
 * Git
 * Jupyter Notebook (recommended)
-2.Clone the Repository
-3.Install Dependencies
-  install using:
+2. Clone the Repository
+3. Install Dependencies
+  - install using:
   pip install -r requirements.txt
 
   
@@ -105,6 +128,7 @@ Aadhar-Enrollment-Anomaly-Detection
 
 
 ## Example Analysis Workflow
+```text
 Load Dataset
       ↓
 Clean & Validate Data
@@ -118,7 +142,7 @@ Apply Z-Score Detection
 Visualize Results
       ↓
 Interpret Insights
-
+```
 ## Results
 The analysis can help identify:
 * Sudden enrollment spikes
